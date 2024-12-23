@@ -155,3 +155,83 @@ Before Caching:            After Caching:
   |  Cache Miss             |   Cache Hit           |
   |-----------------------> | <-------------------- |
 ```
+Here are the visual diagrams for the remaining topics. These will help provide a clear understanding of the concepts associated with each one.
+
+---
+
+### **11. Concurrency Control**
+- **Managing Concurrent Access**: When multiple users access and modify data simultaneously, concurrency control ensures data integrity and consistency.
+
+**Diagram:**
+
+```
+Before Concurrency Control:      After Concurrency Control:
++------------+                   +------------+    +------------+
+| User 1     |                   | User 1     |    | User 2     |
+| Edit Data  |                   | Edit Data  |    | Edit Data  |
+| (Data A)   |                   | (Data B)   |    | (Data A)   |
++------------+                   +------------+    +------------+
+```
+
+---
+
+### **12. Data Integrity**
+- **Ensuring Accuracy**: Ensuring that the data in the system is accurate, consistent, and trustworthy over its lifecycle.
+
+**Diagram:**
+
+```
+Before Data Integrity:         After Data Integrity:
++----------------+             +----------------+
+| Inconsistent   |             | Consistent     |
+| Data A         |             | Data A         |
+| (Incorrect)    |             | (Correct)      |
++----------------+             +----------------+
+```
+
+---
+
+### **13. Backup and Recovery**
+- **Data Backup**: Creating copies of data to protect it from loss, and the recovery process in case of system failure.
+
+**Diagram:**
+
+```
+Before Backup:             After Backup and Recovery:
++------------+              +------------+    +-------------+
+| Database   |              | Backup     |    | Database    |
+| (Original) |   <---->     | (Backup)   |    | (Recovered) |
++------------+              +------------+    +-------------+
+```
+
+---
+
+### **14. Data Security**
+- **Protecting Data**: Ensuring that data is kept safe from unauthorized access, tampering, and cyber threats.
+
+**Diagram:**
+
+```
+Before Data Security:         After Data Security:
++----------------+             +----------------+
+| Unprotected    |             | Encrypted      |
+| Data A         |             | Data A         |
++----------------+             +----------------+
+```
+
+---
+
+### **15. Disaster Recovery**
+- **Recovering from Failures**: Preparing strategies and systems to recover data and restore services in case of disasters.
+
+**Diagram:**
+
+```
+Before Disaster Recovery:     After Disaster Recovery:
++------------+                +------------+       +------------+
+| Server Down|                | Backup     |       | Server Up  |
+| (Data Loss)|                | Server     |       | (Data Restored)|
++------------+                +------------+       +------------+
+```
+
+---
