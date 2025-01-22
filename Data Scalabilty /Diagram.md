@@ -1,7 +1,7 @@
 
 ---
 
-### **1. Data Scalability**
+### **1. Data Scalability** 
 - **Vertical Scaling**: Represents upgrading a server’s hardware (RAM, CPU).
 - **Horizontal Scaling**: Involves adding more servers to handle increasing data and load.
 
